@@ -1,0 +1,113 @@
+/* ================================
+   ESTILO GERAL
+================================== */
+
+body {
+    background-color: #f5f8fa;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px; /* Espaço para a navbar fixa */
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+/* ================================
+   HEADER
+================================== */
+
+header {
+    background: linear-gradient(45deg, #5b8dfd, #6ad1ff);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* ================================
+   NAVBAR
+================================== */
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* ================================
+   CARDS DOS PERSONAGENS
+================================== */
+
+.personagem-card {
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.personagem-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.personagem-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* ================================
+   CARROSSEL
+================================== */
+
+.carousel img {
+    max-height: 450px;
+    object-fit: cover;
+}
+
+/* ================================
+   SEÇÃO DE INTEGRANTES
+================================== */
+
+#integrantes .card {
+    border-radius: 10px;
+}
+
+/* ================================
+   FOOTER
+================================== */
+
+.footer {
+    background: #0f244a;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* ================================
+   RESPONSIVIDADE
+================================== */
+
+@media (max-width: 768px) {
+    header {
+        padding: 60px 15px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .section-title {
+        font-size: 1.6rem;
+    }
+}
